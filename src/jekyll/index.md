@@ -1,7 +1,7 @@
 ---
 layout: default
 title: cryptographic-transition.net
-lastUpdate: 2025-11-11
+lastUpdate: 2025-11-12
 ---
 # The Cryptographic Transition
 
@@ -13,3 +13,11 @@ Our modern information society runs on rational and reasonable trust in upholdin
 - __Authenticity__: We know who we communicate with.
 - __Integrity__: What we received is what we sent each other.
 - __Non-Repudiation__: We know who sent what.
+
+Maintaining that trust requires quantum-safe cryptography.
+
+For cryptographic hash functions and symmetric cryptography you need sufficient hash and key sizes.
+
+For asymmetric cryptography you need post-quantum cryptography like lattice- or hash-based algorithms.
+
+For higher security you need hybrid cryptography, which uses both classic and post-quantum cryptography to gain the greater protection of both.
