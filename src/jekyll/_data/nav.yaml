@@ -1,4 +1,6 @@
 - name: Home
   link: .
+- name: Web Server
+  link: web-server.html
 - name: About
   link: about.html
