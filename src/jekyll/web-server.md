@@ -20,3 +20,4 @@ Nginx is available for [Alpine Linux](https://nginx.org/en/linux_packages.html#d
 The [`nginx`](https://hub.docker.com/_/nginx) container image at Docker Hub is maintained by the [NGINX Docker Maintainers](https://github.com/nginx/docker-nginx) and provided with the [BSD 2-Clause "Simplified" License](https://github.com/nginx/docker-nginx/blob/master/LICENSE).
 
 The image `nginx:1.29.3-alpine3.22-slim` can install the package `openssl-3.5.4-r0` with `apk add --no-cache openssl`, but the command `openssl ciphers -v` does not list any post-quantum key exchange or authentication algorithms **(FIXME)**.
+The commands `openssl list -kem-algorithms` and  `openssl list -signature-algorithms` both list post-quantum and hybrid algorithms.
