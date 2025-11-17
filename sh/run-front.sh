@@ -1,3 +1,3 @@
 # Run the frontend
 . sh/conf.sh &&
-podman run -d --rm --name frontend -p 8080:80 frontend:$VERSION
+podman run -d --name frontend -p 8443:8443 frontend:$VERSION
