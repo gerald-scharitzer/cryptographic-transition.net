@@ -24,4 +24,4 @@ For higher security you need hybrid cryptography, which uses both classic and po
 
 To uphold this level of security you need cryptographic agility.
 When an algorithm is identified as insecure, then you want to be able to quickly remove it from your set of secure algorithms and work on with the remaining set.
-This needs at least two different key exchange and signature algorithms.
+This needs at least two different quantum-safe key exchange and signature algorithms.
