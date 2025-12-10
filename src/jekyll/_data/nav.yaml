@@ -2,5 +2,7 @@
   link: .
 - name: Web Server
   link: web-server.html
+- name: Agility
+  link: agility.html
 - name: About
   link: about.html

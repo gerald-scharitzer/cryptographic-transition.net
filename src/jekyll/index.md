@@ -1,7 +1,7 @@
 ---
 layout: default
 title: cryptographic-transition.net
-lastUpdate: 2025-12-07
+lastUpdate: 2025-12-10
 ---
 # The Cryptographic Transition
 
@@ -22,6 +22,4 @@ For asymmetric cryptography you need post-quantum cryptography like lattice- or 
 
 For higher security you need hybrid cryptography, which uses both classic and post-quantum cryptography to gain the greater protection of both.
 
-To uphold this level of security you need cryptographic agility.
-When an algorithm is identified as insecure, then you want to be able to quickly remove it from your set of secure algorithms and work on with the remaining set.
-This needs at least two different quantum-safe key exchange and signature algorithms.
+To uphold this level of security you need [cryptographic agility](agility.html).

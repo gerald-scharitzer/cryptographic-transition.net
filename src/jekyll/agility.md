@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cryptographic Agility
-lastUpdate: 2025-12-09
+lastUpdate: 2025-12-10
 ---
 # Cryptographic Agility
 
@@ -13,5 +13,8 @@ This needs at least two different algorithms for each category of cryptographic 
 
 - Hash functions
 - Key exchange
-- Encryption and decryption
+- Asymmetric encryption and decryption
+- Symmetric encryption and decryption
 - Signature
+
+Quantum-safe agility needs at least two different quantum-safe algorithms for each category.
