@@ -1,3 +1,3 @@
-# Remove the frontend image
+# Remove the frontend
 . sh/conf.sh &&
-podman rmi frontend:$VERSION
+podman rm frontend
