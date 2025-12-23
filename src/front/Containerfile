@@ -1,5 +1,6 @@
 FROM docker.io/library/nginx:1.29.3-alpine3.22-slim
 RUN apk add --no-cache openssl
+# TODO tag as webserver/nginx-openssl and use as parent image
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY conf/ /usr/local/nginx/conf/
 COPY index.html /usr/share/nginx/html/
