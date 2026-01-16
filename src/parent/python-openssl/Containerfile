@@ -1,0 +1,3 @@
+# python on alpine with openssl
+FROM docker.io/library/python:3.14.2-alpine3.23
+RUN apk add --no-cache openssl
