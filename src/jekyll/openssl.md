@@ -8,3 +8,9 @@ lastUpdate: 2025-12-08
 provides quantum-safe algorithms as of [version 3.5](https://github.com/openssl/openssl/releases/tag/openssl-3.5.0).
 
 The commands `openssl list -kem-algorithms` and  `openssl list -signature-algorithms` both list post-quantum and hybrid algorithms.
+
+OpenSSL provides TLS for several major software projects.
+
+[Python](python.html) clients use the installed OpenSSL.
+
+Nginx [web servers](web-server.html) uses the installed OpenSSL.

@@ -18,3 +18,12 @@ This needs at least two different algorithms for each category of cryptographic 
 - Signature
 
 Quantum-safe agility needs at least two different quantum-safe algorithms for each category.
+
+## Map
+
+Cryptographic agility maps the communication nodes to cryptographic features.
+
+| Node             | TLS     |
+|------------------|---------|
+| Python client    | OpenSSL |
+| Nginx web server | OpenSSL |
