@@ -9,6 +9,8 @@ provides quantum-safe algorithms as of [version 3.5](https://github.com/openssl/
 
 The commands `openssl list -kem-algorithms` and  `openssl list -signature-algorithms` both list post-quantum and hybrid algorithms.
 
+Get the current OpenSSL version with `openssl version -d`.
+
 OpenSSL provides TLS for several major software projects.
 
 [Python](python.html) clients use the installed OpenSSL.
