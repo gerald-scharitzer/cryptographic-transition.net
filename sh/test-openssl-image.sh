@@ -4,4 +4,7 @@ podman run --replace -a stdout --name openssl openssl:$VERSION openssl version &
 podman run --replace -a stdout --name openssl openssl:$VERSION openssl list -kem-algorithms &&
 podman run --replace -a stdout --name openssl openssl:$VERSION openssl list -signature-algorithms &&
 podman run --replace -a stdout --name openssl openssl:$VERSION openssl list -public-key-algorithms &&
-podman run --replace -a stdout --name openssl openssl:$VERSION openssl ciphers
+podman run --replace -a stdout --name openssl openssl:$VERSION openssl ciphers &&
+server_id=$(podman run --replace --detach --name openssl-s_server openssl:$VERSION openssl s_server -4 -accept '127.0.0.1:8443')
+# -cert /etc/ssl/certs/ssl-cert.pem -key /etc/ssl/private/ssl-cert.key
+echo $server_id
