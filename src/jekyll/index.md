@@ -14,7 +14,7 @@ Our modern information society runs on rational and reasonable trust in upholdin
 - __Integrity__: What we received is what we sent each other.
 - __Non-Repudiation__: We know who sent what.
 
-Maintaining that trust requires quantum-safe cryptography.
+Maintaining that trust [requires quantum-safe cryptography](rationale.html).
 
 For cryptographic hash functions and symmetric cryptography you need sufficient hash and key sizes.
 
