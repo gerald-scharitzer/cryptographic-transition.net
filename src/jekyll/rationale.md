@@ -13,4 +13,15 @@ Our modern society relies on effective and efficient cryptography to enable trus
 
 Authenticity relies on public key cryptography to sign messages and verify signatures without sharing secrets.
 
-Public key cryptography provides that.
+Confidentiality relies on public key cryptography to generate shared secret keys from separate private keys with clear text messages containing no secrets.
+
+One major usage of public key cryptography is Transport Layer Security (TLS).
+
+TLS provides this security in major application layer protocols like HTTPS, LDAPS, FTPS, SMTPS, and STARTTLS.
+
+Secure Shell (SSH) and thus SFTP also rely on public key cryptography.
+
+Major TLS signature and key exchange algorithms rely on the computational complexity of integer factorization and discrete logarithms.
+
+- RSA relies on integer factorization
+- Diffie Hellman (DH) and SSH rely on discrete logarithms
