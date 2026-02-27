@@ -38,3 +38,7 @@ Major TLS signature and key exchange algorithms rely on the computational comple
 We know that quantum computers theoretically solve these mathematical problems efficiently.
 
 This means that increasing the key length does not provide effective security anymore.
+
+# Post-Quantum Cryptography
+
+We created new cryptographic algorithms, that resist both classic and quantum algorithms, and thus entered the phase of Post-Quantum Cryptography.
