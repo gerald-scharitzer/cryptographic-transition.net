@@ -42,3 +42,11 @@ This means that increasing the key length does not provide effective security an
 # Post-Quantum Cryptography
 
 We created new cryptographic algorithms, that resist both classic and quantum algorithms, and thus entered the phase of Post-Quantum Cryptography.
+
+We implemented the new algorithms in major libraries.
+
+We standardized some algorithms.
+
+Now the clients must propose them, such that the servers can pick them.
+
+You can secure your server by accepting quantum-safe algorithms only.
