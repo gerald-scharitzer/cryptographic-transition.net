@@ -50,3 +50,15 @@ We standardized some algorithms.
 Now the clients must propose them, such that the servers can pick them.
 
 You can secure your server by accepting quantum-safe algorithms only.
+
+# Upgrade to Quantum-Safe Algorithms
+
+Clients and servers can upgrade independently.
+
+The TLS protocol picks the actual combination of algorithms and parameters based on lists of these.
+
+# Points of Attention
+
+Current quantum-safe algorithms require significantly more computing resources than their predecessors.
+
+The higher-security method to use both classic and quantum-safe algorithms requires even more computing.
