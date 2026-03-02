@@ -51,6 +51,10 @@ Now the clients must propose them, such that the servers can pick them.
 
 You can secure your server by accepting quantum-safe algorithms only.
 
+# Strategy
+
+The NIS Coordination Group published a roadmap for the transition to post-quantum cryptography.
+
 # Upgrade to Quantum-Safe Algorithms
 
 Clients and servers can upgrade independently.
@@ -59,6 +63,6 @@ The TLS protocol picks the actual combination of algorithms and parameters based
 
 # Points of Attention
 
-Current quantum-safe algorithms require significantly more computing resources than their predecessors.
+Current quantum-safe algorithms require significantly more computing resources than their classic predecessors.
 
 The higher-security method to use both classic and quantum-safe algorithms requires even more computing.
