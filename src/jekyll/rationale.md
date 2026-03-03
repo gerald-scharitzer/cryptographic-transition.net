@@ -65,4 +65,10 @@ The TLS protocol picks the actual combination of algorithms and parameters based
 
 Current quantum-safe algorithms require significantly more computing resources than their classic predecessors.
 
-The higher-security method to use both classic and quantum-safe algorithms requires even more computing.
+The NIS roadmap for the transition to post-quantum cryptography recommends to combine classic and post-quantum algorithms.
+
+This higher-security method to use both classic and quantum-safe algorithms requires even more computing.
+
+# Possibilities
+
+Current application layer protocol versions like HTTP/2 and HTTP/3 might use TLS sessions more efficiently.
