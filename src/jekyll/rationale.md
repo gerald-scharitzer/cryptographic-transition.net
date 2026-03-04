@@ -14,9 +14,10 @@ This is based on the following features of information security.
 
 ## Public Key Cryptography
 
-Authenticity relies on public key cryptography to sign messages and verify signatures without sharing secrets.
+Authenticity relies on public key cryptography to sign messages and verify signatures without sending secrets.
 
 Confidentiality relies on public key cryptography to generate shared secret keys from separate private keys with clear text messages containing no secrets.
+Forward secrecy uses different ephemeral keys to protect the confidentiality of prior messages.
 
 ## Transport Layer Security and Secure Shell
 
