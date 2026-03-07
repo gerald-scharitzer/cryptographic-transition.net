@@ -21,7 +21,9 @@ Forward secrecy uses different ephemeral keys to protect the confidentiality of 
 
 ## Symmetric Key Cryptography
 
-Encrypts data more efficient, but relies on secret keys.
+encrypts data more efficient, but relies on secret keys.
+Use public key cryptography to protect the secret key.
+Key encapsulation: Encrypt the secret key with the public key and decrypt it with the private key.
 
 ## Cryptographic Hash Functions
 
