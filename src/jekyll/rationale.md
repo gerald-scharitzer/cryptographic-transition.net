@@ -23,13 +23,13 @@ Forward secrecy uses different ephemeral keys to protect the confidentiality of 
 
 encrypts data more efficient, but relies on secret keys.
 Use public key cryptography to protect the secret key.
-Key encapsulation: Encrypt the secret key with the public key and decrypt it with the private key.
+Key encapsulation: Encrypt the secret key or key generation material with the public key and decrypt it with the private key.
 
 ## Cryptographic Hash Functions
 
 ## Transport Layer Security and Secure Shell
 
-One major usage of public key cryptography is Transport Layer Security (TLS).
+One major user of public key cryptography is Transport Layer Security (TLS).
 
 TLS provides this security in major application layer protocols like HTTPS, LDAPS, FTPS, SMTPS, and STARTTLS.
 
@@ -81,3 +81,12 @@ This higher-security method to use both classic and quantum-safe algorithms requ
 # Possibilities
 
 Current application layer protocol versions like HTTP/2 and HTTP/3 might use TLS sessions more efficiently.
+
+# Summary
+
+Information security relies on public key cryptography,
+which in turn relies on integer factorization and discrete logarithms.
+
+Efficient quantum computers could render these protections ineffective.
+
+You can protect your information security from quantum computers with post-quantum cryptography algorithms.
