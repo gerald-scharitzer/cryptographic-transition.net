@@ -1,7 +1,7 @@
 ---
 layout: default
 title: rationale @ cryptographic-transition.net
-lastUpdate: 2026-02-20
+lastUpdate: 2026-03-20
 ---
 # Rationale
 
@@ -87,6 +87,10 @@ Current application layer protocol versions like HTTP/2 and HTTP/3 might use TLS
 Information security relies on public key cryptography,
 which in turn relies on integer factorization and discrete logarithms.
 
-Efficient quantum computers could render these protections ineffective.
+Efficient quantum computers can render these protections ineffective.
 
 You can protect your information security from quantum computers with post-quantum cryptography algorithms.
+
+This requires cryptographic agility: switching cryptographic controls effectively.
+
+This in turn requires a cryptographic inventory: knowing which cryptographically relevant assets you use.
