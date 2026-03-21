@@ -91,6 +91,9 @@ Efficient quantum computers can render these protections ineffective.
 
 You can protect your information security from quantum computers with post-quantum cryptography algorithms.
 
+You can do so with the classic computers and programs that we are using now,
+and you do not need quantum computers or quantum cryptography for this.
+
 This requires cryptographic agility: switching cryptographic controls effectively.
 
 This in turn requires a cryptographic inventory: knowing which cryptographically relevant assets you use.
