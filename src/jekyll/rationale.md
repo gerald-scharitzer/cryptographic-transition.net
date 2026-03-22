@@ -27,6 +27,8 @@ Key encapsulation: Encrypt the secret key or key generation material with the pu
 
 ## Cryptographic Hash Functions
 
+detect changes in messages and enable integrity.
+
 ## Transport Layer Security and Secure Shell
 
 One major user of public key cryptography is Transport Layer Security (TLS).
