@@ -1,7 +1,7 @@
 ---
 layout: default
 title: rationale @ cryptographic-transition.net
-lastUpdate: 2026-03-20
+lastUpdate: 2026-04-06
 ---
 # Rationale
 
@@ -18,6 +18,11 @@ Authenticity relies on public key cryptography to sign messages and verify signa
 
 Confidentiality relies on public key cryptography to generate shared secret keys from separate private keys with clear text messages containing no secrets.
 Forward secrecy uses different ephemeral keys to protect the confidentiality of prior messages.
+
+Public key cryptography relies on
+- keeping the private key known by trusted entities only
+- not having to share the private key with communication partners like secrets keys
+- sharing public keys to use crypthographic functions.
 
 ## Symmetric Key Cryptography
 
