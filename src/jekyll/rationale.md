@@ -1,7 +1,7 @@
 ---
 layout: default
 title: rationale @ cryptographic-transition.net
-lastUpdate: 2026-04-06
+lastUpdate: 2026-04-08
 ---
 # Rationale
 
@@ -69,7 +69,7 @@ You can secure your server by accepting quantum-safe algorithms only.
 
 # Strategy
 
-The NIS Coordination Group published a roadmap for the transition to post-quantum cryptography.
+The Network and Information Systems (NIS) Coordination Group published a roadmap for the transition to post-quantum cryptography.
 
 # Upgrade to Quantum-Safe Algorithms
 
