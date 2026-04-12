@@ -1,12 +1,12 @@
 ---
 layout: default
 title: rationale @ cryptographic-transition.net
-lastUpdate: 2026-04-10
+lastUpdate: 2026-04-12
 ---
 # Rationale
 
 Our modern society relies on effective and efficient cryptography to enable trustworthy communication.
-This is based on the following features of information security.
+This is considered secure based on the following features of information security.
 
 - Authenticity: We know who we talk to.
 - Confidentiality: Only we know what we talked to each other.
@@ -18,6 +18,9 @@ Authenticity relies on public key cryptography to sign messages and verify signa
 
 Confidentiality relies on public key cryptography to generate shared secret keys from separate private keys with clear text messages containing no secrets.
 Forward secrecy uses different ephemeral keys to protect the confidentiality of prior messages.
+
+Integrity relies on message authentication to sign messages with secret keys and to verify signatures with the shared secret keys.
+Sharing secret keys relies on public key cryptography and thus does integrity.
 
 Public key cryptography relies on
 - keeping the private key known by trusted entities only
