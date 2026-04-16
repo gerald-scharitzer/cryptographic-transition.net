@@ -1,7 +1,7 @@
 ---
 layout: default
 title: rationale @ cryptographic-transition.net
-lastUpdate: 2026-04-12
+lastUpdate: 2026-04-16
 ---
 # Rationale
 
@@ -9,14 +9,15 @@ Our modern society relies on effective and efficient cryptography to enable trus
 This is considered secure based on the following features of information security.
 
 - Authenticity: We know who we talk to.
-- Confidentiality: Only we know what we talked to each other.
+- Confidentiality: Only we know what we told each other.
 - Integrity: What we said is what was heard.
 
 ## Public Key Cryptography aka Asymmetric Key Cryptography
 
 Authenticity relies on public key cryptography to sign messages and verify signatures without sending secrets.
 
-Confidentiality relies on public key cryptography to generate shared secret keys from separate private keys with clear text messages containing no secrets.
+Confidentiality relies on public key cryptography to generate shared secret keys from separate private keys.
+The clear text messages contain no secrets.
 Forward secrecy uses different ephemeral keys to protect the confidentiality of prior messages.
 
 Integrity relies on message authentication to sign messages with secret keys and to verify signatures with the shared secret keys.
