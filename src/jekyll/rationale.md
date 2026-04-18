@@ -20,7 +20,7 @@ Confidentiality relies on public key cryptography to generate shared secret keys
 The clear text messages contain no secrets.
 Forward secrecy uses different ephemeral keys to protect the confidentiality of prior messages.
 
-Integrity relies on message authentication to sign messages with secret keys and to verify signatures with the shared secret keys.
+Integrity relies on message authentication to sign messages with secret keys and to verify signatures with these shared secret keys.
 Sharing secret keys relies on public key cryptography and thus does integrity.
 
 Public key cryptography relies on
@@ -32,7 +32,10 @@ Public key cryptography relies on
 
 encrypts data more efficiently than asymmetric key cryptography, but relies on secret keys.
 Use public key cryptography to protect the secret key.
-Key encapsulation: Encrypt the secret key or key generation material with the public key and decrypt it with the private key.
+
+Key encapsulation encrypts the secret key or key generation material with the public key and decrypts it with the private key.
+
+Key generation creates shared secret keys by exchanging non-confidential messages.
 
 ## Cryptographic Hash Functions
 
