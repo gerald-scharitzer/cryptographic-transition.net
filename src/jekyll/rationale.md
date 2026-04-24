@@ -1,11 +1,11 @@
 ---
 layout: default
 title: rationale @ cryptographic-transition.net
-lastUpdate: 2026-04-16
+lastUpdate: 2026-04-24
 ---
 # Rationale
 
-Our modern society relies on effective and efficient cryptography to enable trustworthy communication.
+Our modern society relies on effective and efficient cryptography to establish trustworthy communication.
 This is considered secure based on the following features of information security.
 
 - Authenticity: We know who we talk to.
