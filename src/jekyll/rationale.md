@@ -1,7 +1,7 @@
 ---
 layout: default
 title: rationale @ cryptographic-transition.net
-lastUpdate: 2026-04-24
+lastUpdate: 2026-04-26
 ---
 # Rationale
 
@@ -31,7 +31,7 @@ Public key cryptography relies on
 ## Symmetric Key Cryptography
 
 encrypts data more efficiently than asymmetric key cryptography, but relies on secret keys.
-Use public key cryptography to protect the secret key.
+We use public key cryptography to protect the secret key.
 
 Key encapsulation encrypts the secret key or key generation material with the public key and decrypts it with the private key.
 
