@@ -19,4 +19,6 @@ Get memory that is not going to be copied anywhere: not swapped, not paged, not 
 
 Generate the private key into this memory.
 
-Post the public key to get the certificate.
+Post the public key to a certificate authority to get the certificate.
+
+Start listening for TLS on the default port.
