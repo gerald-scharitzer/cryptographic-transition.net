@@ -1,0 +1,4 @@
+FROM docker.io/tomcat:11.0.22-jre25-temurin-noble
+# there are no current alpine images anymore
+# FROM dhi.io/tomcat:11.0.22-jdk25-alpine3.22-fips
+# requires authentication
