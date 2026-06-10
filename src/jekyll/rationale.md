@@ -54,7 +54,7 @@ Secure Shell (SSH) and thus SFTP also rely on public key cryptography.
 Major TLS signature and key exchange algorithms rely on the computational complexity of integer factorization and discrete logarithms.
 
 - RSA relies on integer factorization
-- Diffie Hellman (DH) and SSH rely on discrete logarithms
+- Diffie Hellman (DH), elliptic curves, and SSH rely on discrete logarithms
 
 # Quantum Computers
 
