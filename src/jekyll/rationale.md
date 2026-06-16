@@ -60,7 +60,9 @@ Major TLS signature and key exchange algorithms rely on the computational comple
 
 We know that quantum computers theoretically solve these mathematical problems efficiently.
 
-This means that increasing the key length does not provide effective security anymore.
+Today, quantum computers are commercially available and their processing capacity (quantum volume) is scaling up.
+
+If this progress continues, then increasing the key length would not provide effective security anymore.
 
 # Post-Quantum Cryptography
 
