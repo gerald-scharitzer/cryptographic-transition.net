@@ -11,6 +11,7 @@ This is considered secure based on the following features of information securit
 - Authenticity: We know who we talk to.
 - Confidentiality: Only we know what we told each other.
 - Integrity: What we said is what was heard.
+- Availability: We communicate securely.
 
 ## Public Key Cryptography aka Asymmetric Key Cryptography
 
@@ -27,6 +28,8 @@ Public key cryptography relies on
 - keeping the private key known by trusted entities only
 - not having to share the private key with communication partners like secrets keys
 - sharing public keys to use crypthographic functions.
+
+Availability relies on authenticity, confidentiality, and integrity to fulfil the demand for secure communication.
 
 ## Symmetric Key Cryptography
 
