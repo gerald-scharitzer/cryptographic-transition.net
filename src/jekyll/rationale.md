@@ -16,6 +16,7 @@ This is considered secure based on the following features of information securit
 ## Public Key Cryptography aka Asymmetric Key Cryptography
 
 Authenticity relies on public key cryptography to sign messages and verify signatures without sending secrets.
+Signing both, the certificate binding the public key to an identifier, and the message, binds the combination of both the certificate and the message to the private key.
 
 Confidentiality relies on public key cryptography to generate shared secret keys from separate private keys.
 The clear text messages contain no secrets.
@@ -27,7 +28,7 @@ Sharing secret keys relies on public key cryptography and thus does integrity.
 Public key cryptography relies on
 - keeping the private key known by trusted entities only
 - not having to share the private key with communication partners like secrets keys
-- sharing public keys to use crypthographic functions.
+- sharing public keys to use cryptographic functions.
 
 Availability relies on authenticity, confidentiality, and integrity to fulfil the demand for secure communication.
 
