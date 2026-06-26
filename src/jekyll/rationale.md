@@ -26,9 +26,9 @@ Integrity relies on message authentication to sign messages with secret keys and
 Sharing secret keys relies on public key cryptography and thus does integrity.
 
 Public key cryptography relies on
-- keeping the private key known by trusted entities only
-- not having to share the private key with communication partners like secrets keys
-- sharing public keys to use cryptographic functions.
+- keeping the private key known by trusted entities only, and
+- not having to share the private key with communication partners like secrets keys, and
+- sharing public keys to use cryptographic functions like encryption and signature.
 
 Availability relies on authenticity, confidentiality, and integrity to fulfil the demand for secure communication.
 
