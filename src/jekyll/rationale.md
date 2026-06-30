@@ -78,7 +78,7 @@ We standardized some algorithms.
 
 Now the clients must propose them, such that the servers can pick them.
 
-You can secure your server by accepting quantum-safe algorithms only.
+You can secure your server by requiring or accepting quantum-safe algorithms.
 
 # Strategy
 
@@ -107,12 +107,13 @@ Current application layer protocol versions like HTTP/2 and HTTP/3 might use TLS
 Information security relies on public key cryptography,
 which in turn relies on integer factorization and discrete logarithms.
 
-Efficient quantum computers can render these protections ineffective.
+Efficient quantum computers can solve integer factorization and discrete logarithms,
+and thus overcome their protective capabilities.
 
 You can protect your information security from quantum computers with post-quantum cryptography algorithms.
 
 You can do so with the classic computers and programs that we are using now,
-and you do not need quantum computers or quantum cryptography for this.
+and you do not need quantum computers, quantum key distribution, quantum random number generation, or quantum cryptography for this.
 
 This requires cryptographic agility: switching cryptographic controls effectively.
 
