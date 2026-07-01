@@ -110,7 +110,9 @@ which in turn relies on integer factorization and discrete logarithms.
 Efficient quantum computers can solve integer factorization and discrete logarithms,
 and thus overcome their protective capabilities.
 
-You can protect your information security from quantum computers with post-quantum cryptography algorithms.
+You can contribute to the security of your information,
+against the processing capacity of quantum computers,
+with post-quantum cryptography algorithms.
 
 You can do so with the classic computers and programs that we are using now,
 and you do not need quantum computers, quantum key distribution, quantum random number generation, or quantum cryptography for this.
