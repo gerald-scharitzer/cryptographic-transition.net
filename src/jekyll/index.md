@@ -1,11 +1,14 @@
 ---
 layout: default
 title: cryptographic-transition.net
-lastUpdate: 2025-12-10
+lastUpdate: 2026-07-22
 ---
 # The Cryptographic Transition
 
-switches the fundamental algorithms that run our trust-based systems.
+changes the fundamental algorithms that run our trust-based systems.
+
+[TL;DR](tldr.html): We change the set of algorithms that we use for asymmetric key cryptography,
+to better protect against the reasonable potential processing capacity of modern systems, like quantum computers.
 
 Our modern information society runs on rational and reasonable trust in upholding the following attributes of secure communications.
 
