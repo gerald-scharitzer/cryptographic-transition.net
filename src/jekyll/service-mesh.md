@@ -13,3 +13,5 @@ This enables crypto agility by knowing which communication uses which cryptograp
 controlling centrally which cryptography is used.
 
 Wrapping communication in TLS brings along workload identity.
+
+The proxy is the gateway of the local network.
