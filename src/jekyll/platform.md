@@ -13,6 +13,7 @@ They provide the services that containers rely on and benefit from:
 
 - DNS resolution
 - IP forwarding
+- TLS wrapping
 
 # Domain Name System (DNS)
 
@@ -21,3 +22,7 @@ maps names to addresses (A and AAAA records), claims authority (SOA records) and
 Host names can become fully qualified domain names.
 
 Trust is expressed in domain names and public keys.
+
+This replaces the secret zero with the private key.
+One major feature of private keys is,
+that they need not be shared.
