@@ -22,4 +22,6 @@ Using different instruction set architectures works the same;
 They can cooperate, because they communicate via open standards.
 Major parent images like `alpine`, `eclipse-temurin` and `python` are available for open instruction set architectures like `riscv64`.
 
+The reach of programming languages depends on their compilers, virtual machines, and interpreters.
+
 Alpine Linux itself provides [cloud images](https://alpinelinux.org/cloud/) for the architectures `x86_64` and `aarch64` only.
