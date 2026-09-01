@@ -24,4 +24,9 @@ Major parent images like `alpine`, `eclipse-temurin` and `python` are available 
 
 The reach of programming languages depends on their compilers, virtual machines, and interpreters.
 
+Compilers can cover multiple [platforms](https://doc.rust-lang.org/rustc/platform-support.html),
+like `x86_64-unknown-linux-gnu` and `riscv64gc-unknown-linux-gnu`.
+
+AI [accelerators](https://mojolang.org/docs/tools/compilation/) constitute different platforms as well.
+
 Alpine Linux itself provides [cloud images](https://alpinelinux.org/cloud/) for the architectures `x86_64` and `aarch64` only.
