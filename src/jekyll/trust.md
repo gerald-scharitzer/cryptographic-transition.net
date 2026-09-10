@@ -15,4 +15,5 @@ then there is reasonable trust in shaping the future.
 We trust in entities to behave as we predict.
 For that we trust the identities of these entities.
 
-We link identities to public keys and the holders of the private keys.
+We link identities to public keys and to the holders of the private keys.
+This enables challenges, that only the holders of the matching private keys can solve.
