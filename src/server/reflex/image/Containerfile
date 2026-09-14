@@ -1,0 +1,2 @@
+FROM ghcr.io/astral-sh/uv:python3.14-alpine3.23
+CMD ["uv", "-V"]
