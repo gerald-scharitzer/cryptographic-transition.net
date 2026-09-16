@@ -7,7 +7,9 @@ authors = [
     { name = "gerald-scharitzer" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "reflex>=0.9.11.post1",
+]
 
 [project.scripts]
 front = "front:main"
