@@ -5,7 +5,7 @@ lastUpdate: 2026-04-26
 ---
 # Rationale
 
-Our modern society relies on effective and efficient cryptography to establish trustworthy communication.
+Our modern society relies on effective and efficient cryptography to establish reliable and trustworthy communication.
 This is considered secure based on the following features of information security.
 
 - Authenticity: We know who we talk to.
